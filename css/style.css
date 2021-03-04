@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  padding-top: 2em;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+button[data-action] {
+  width: 100px;
+  height: 50px;
+  border: 1px solid rgb(55, 7, 165);
+  border-radius: 20px;
+
+  font-weight: 500;
+  font-size: 24px;
+  font-style: italic;
+  color: white;
+
+  background-image: linear-gradient(to right, rgb(19, 129, 231), rgb(55, 7, 165));
+  cursor: pointer;
+}
+
+button[data-action]:disabled {
+  background-image: none;
+  opacity: 0.3;
+}
